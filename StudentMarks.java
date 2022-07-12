@@ -25,10 +25,10 @@ public class StudentMarks {
     	  System.out.println("GRADE OBTAINED BY THE STUDENT IS 'A'");
       else if(per<=80&&per>=70)
     	  System.out.println("GRADE OBTAINED BY THE STUDENT IS 'B'");
-      else if(per<60)
+      else if(per<=60&&per>=40)
           System.out.println("GRADE OBTAINED BY THE STUDENT IS 'C'");
       else
-    	  System.out.println("GRADE OBTAINED BY THE STUDENT IS 'P'");
+    	  System.out.println("GRADE OBTAINED BY THE STUDENT IS 'F'");
 	}
 	}
 
